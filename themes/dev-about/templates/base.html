@@ -4,8 +4,7 @@
   {% block headers %}
     <meta charset="utf-8" />
     <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/skeleton.css" />
-    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css" />
     
     <link rel="alternate" type="application/atom+xml"
                            title="{{ SITENAME }} — Flux Atom"
@@ -41,9 +40,6 @@
 
       {% include "sidebar.html" %} 
 
-      <footer class="page-footer">
-        <p> {{ FOOTER_TEXT or 'Porté par <a href="http://pelican.readthedocs.org">Pelican</a> et <a href="http://www.openbsd.org/">OpenBSD</a>' }}</p>
-      </footer>
     </div>
   </body>
 </html>
