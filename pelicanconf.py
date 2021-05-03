@@ -34,4 +34,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 # Theme
-THEME = "dev-about"
+THEME = "pages-themes_minimal"
